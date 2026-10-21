@@ -1,0 +1,39 @@
+{
+    "name": "ceibo-dev/filament-argentina",
+    "description": "Argentine form fields, table columns and validation rules for Filament: CUIT/CUIL, DNI, CBU/CVU, alias, phone, provinces, pesos and IVA condition.",
+    "keywords": ["filament", "laravel", "argentina", "cuit", "cuil", "cbu", "cvu", "dni", "validation"],
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": "^8.3",
+        "filament/forms": "^5.0",
+        "filament/tables": "^5.0",
+        "filament/infolists": "^5.0",
+        "illuminate/contracts": "^12.0|^13.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^10.0|^11.0",
+        "phpunit/phpunit": "^11.5|^12.0",
+        "larastan/larastan": "^3.0",
+        "laravel/pint": "^1.20"
+    },
+    "autoload": {
+        "psr-4": { "CeiboDev\\FilamentArgentina\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "CeiboDev\\FilamentArgentina\\Tests\\": "tests/" }
+    },
+    "extra": {
+        "laravel": {
+            "providers": ["CeiboDev\\FilamentArgentina\\FilamentArgentinaServiceProvider"]
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "analyse": "phpstan analyse --no-progress --memory-limit=1G",
+        "format": "pint"
+    },
+    "config": { "sort-packages": true },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
