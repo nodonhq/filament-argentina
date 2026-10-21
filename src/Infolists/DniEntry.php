@@ -1,9 +1,9 @@
 <?php
 
-namespace CeiboDev\FilamentArgentina\Infolists;
+namespace NodonHq\FilamentArgentina\Infolists;
 
-use CeiboDev\FilamentArgentina\Support\Dni;
 use Filament\Infolists\Components\TextEntry;
+use NodonHq\FilamentArgentina\Support\Dni;
 
 /** Shows a DNI as 12.345.678. */
 class DniEntry extends TextEntry

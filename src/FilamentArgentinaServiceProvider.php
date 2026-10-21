@@ -1,6 +1,6 @@
 <?php
 
-namespace CeiboDev\FilamentArgentina;
+namespace NodonHq\FilamentArgentina;
 
 use Illuminate\Support\ServiceProvider;
 

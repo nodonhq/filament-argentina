@@ -1,10 +1,10 @@
 <?php
 
-namespace CeiboDev\FilamentArgentina\Forms;
+namespace NodonHq\FilamentArgentina\Forms;
 
-use CeiboDev\FilamentArgentina\Rules\Cbu as CbuRule;
-use CeiboDev\FilamentArgentina\Support\Cbu;
 use Filament\Forms\Components\TextInput;
+use NodonHq\FilamentArgentina\Rules\Cbu as CbuRule;
+use NodonHq\FilamentArgentina\Support\Cbu;
 
 /** CBU or CVU (22 digits, shown as two blocks). Stores only the digits unless storeFormatted(). */
 class CbuInput extends TextInput

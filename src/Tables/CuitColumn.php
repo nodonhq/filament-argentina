@@ -1,9 +1,9 @@
 <?php
 
-namespace CeiboDev\FilamentArgentina\Tables;
+namespace NodonHq\FilamentArgentina\Tables;
 
-use CeiboDev\FilamentArgentina\Support\Cuit;
 use Filament\Tables\Columns\TextColumn;
+use NodonHq\FilamentArgentina\Support\Cuit;
 
 /** Shows a CUIT / CUIL as 20-12345678-6. */
 class CuitColumn extends TextColumn

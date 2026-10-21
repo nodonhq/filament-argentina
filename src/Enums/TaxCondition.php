@@ -1,6 +1,6 @@
 <?php
 
-namespace CeiboDev\FilamentArgentina\Enums;
+namespace NodonHq\FilamentArgentina\Enums;
 
 use Filament\Support\Contracts\HasLabel;
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace CeiboDev\FilamentArgentina\Forms;
+namespace NodonHq\FilamentArgentina\Forms;
 
-use CeiboDev\FilamentArgentina\Enums\Province;
 use Filament\Forms\Components\Select;
+use NodonHq\FilamentArgentina\Enums\Province;
 
 /** The 24 jurisdictions. Stores the ISO 3166-2 code (AR-C, AR-B, ...). */
 class ProvinceSelect extends Select

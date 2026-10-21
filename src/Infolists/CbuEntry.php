@@ -1,9 +1,9 @@
 <?php
 
-namespace CeiboDev\FilamentArgentina\Infolists;
+namespace NodonHq\FilamentArgentina\Infolists;
 
-use CeiboDev\FilamentArgentina\Support\Cbu;
 use Filament\Infolists\Components\TextEntry;
+use NodonHq\FilamentArgentina\Support\Cbu;
 
 /** Shows a CBU / CVU as two blocks. */
 class CbuEntry extends TextEntry

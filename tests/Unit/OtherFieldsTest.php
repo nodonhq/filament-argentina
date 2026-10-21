@@ -1,12 +1,12 @@
 <?php
 
-namespace CeiboDev\FilamentArgentina\Tests\Unit;
+namespace NodonHq\FilamentArgentina\Tests\Unit;
 
-use CeiboDev\FilamentArgentina\Enums\Province;
-use CeiboDev\FilamentArgentina\Support\CbuAlias;
-use CeiboDev\FilamentArgentina\Support\Dni;
-use CeiboDev\FilamentArgentina\Support\Pesos;
-use CeiboDev\FilamentArgentina\Support\Phone;
+use NodonHq\FilamentArgentina\Enums\Province;
+use NodonHq\FilamentArgentina\Support\CbuAlias;
+use NodonHq\FilamentArgentina\Support\Dni;
+use NodonHq\FilamentArgentina\Support\Pesos;
+use NodonHq\FilamentArgentina\Support\Phone;
 use PHPUnit\Framework\TestCase;
 
 class OtherFieldsTest extends TestCase

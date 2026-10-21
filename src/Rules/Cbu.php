@@ -1,10 +1,10 @@
 <?php
 
-namespace CeiboDev\FilamentArgentina\Rules;
+namespace NodonHq\FilamentArgentina\Rules;
 
-use CeiboDev\FilamentArgentina\Support\Cbu as CbuNumber;
 use Closure;
 use Illuminate\Contracts\Validation\ValidationRule;
+use NodonHq\FilamentArgentina\Support\Cbu as CbuNumber;
 
 /** Valid CBU or CVU (both check digits). Use cbuOnly() or cvuOnly() to restrict it. */
 final class Cbu implements ValidationRule

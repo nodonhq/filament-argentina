@@ -13,20 +13,20 @@ Requires PHP 8.3+ and Filament 5.
 ## Installation
 
 ```bash
-composer require ceibo-dev/filament-argentina
+composer require nodonhq/filament-argentina
 ```
 
 ## Form fields
 
 ```php
-use CeiboDev\FilamentArgentina\Forms\CbuAliasInput;
-use CeiboDev\FilamentArgentina\Forms\CbuInput;
-use CeiboDev\FilamentArgentina\Forms\CuitInput;
-use CeiboDev\FilamentArgentina\Forms\DniInput;
-use CeiboDev\FilamentArgentina\Forms\PesosInput;
-use CeiboDev\FilamentArgentina\Forms\PhoneInput;
-use CeiboDev\FilamentArgentina\Forms\ProvinceSelect;
-use CeiboDev\FilamentArgentina\Forms\TaxConditionSelect;
+use NodonHq\FilamentArgentina\Forms\CbuAliasInput;
+use NodonHq\FilamentArgentina\Forms\CbuInput;
+use NodonHq\FilamentArgentina\Forms\CuitInput;
+use NodonHq\FilamentArgentina\Forms\DniInput;
+use NodonHq\FilamentArgentina\Forms\PesosInput;
+use NodonHq\FilamentArgentina\Forms\PhoneInput;
+use NodonHq\FilamentArgentina\Forms\ProvinceSelect;
+use NodonHq\FilamentArgentina\Forms\TaxConditionSelect;
 
 CuitInput::make('cuit')->label('CUIT'),            // stores 20123456786
 CuitInput::make('cuit')->company(),                // only legal entities (30, 33, 34)
@@ -58,10 +58,10 @@ To keep the separators in the database, add `->storeFormatted()` to the CUIT, DN
 ## Table columns and infolist entries
 
 ```php
-use CeiboDev\FilamentArgentina\Tables\CbuColumn;
-use CeiboDev\FilamentArgentina\Tables\CuitColumn;
-use CeiboDev\FilamentArgentina\Tables\DniColumn;
-use CeiboDev\FilamentArgentina\Tables\PesosColumn;
+use NodonHq\FilamentArgentina\Tables\CbuColumn;
+use NodonHq\FilamentArgentina\Tables\CuitColumn;
+use NodonHq\FilamentArgentina\Tables\DniColumn;
+use NodonHq\FilamentArgentina\Tables\PesosColumn;
 
 CuitColumn::make('cuit'),       // 20-12345678-6
 DniColumn::make('dni'),         // 12.345.678
@@ -69,7 +69,7 @@ CbuColumn::make('cbu'),         // 01105995 40000000123457
 PesosColumn::make('price'),     // $ 1.234,56 (right aligned)
 ```
 
-The same exist for infolists in `CeiboDev\FilamentArgentina\Infolists`: `CuitEntry`, `DniEntry`, `CbuEntry` and `PesosEntry`.
+The same exist for infolists in `NodonHq\FilamentArgentina\Infolists`: `CuitEntry`, `DniEntry`, `CbuEntry` and `PesosEntry`.
 
 For provinces and VAT condition, cast the attribute to the enum and use a regular `TextColumn`: it shows the label.
 
@@ -77,8 +77,8 @@ For provinces and VAT condition, cast the attribute to the enum and use a regula
 protected function casts(): array
 {
     return [
-        'province' => \CeiboDev\FilamentArgentina\Enums\Province::class,
-        'tax_condition' => \CeiboDev\FilamentArgentina\Enums\TaxCondition::class,
+        'province' => \NodonHq\FilamentArgentina\Enums\Province::class,
+        'tax_condition' => \NodonHq\FilamentArgentina\Enums\TaxCondition::class,
     ];
 }
 ```
@@ -86,12 +86,12 @@ protected function casts(): array
 ## Validation rules (Laravel, no Filament needed)
 
 ```php
-use CeiboDev\FilamentArgentina\Rules\ArgentinePhone;
-use CeiboDev\FilamentArgentina\Rules\Cbu;
-use CeiboDev\FilamentArgentina\Rules\CbuAlias;
-use CeiboDev\FilamentArgentina\Rules\Cuit;
-use CeiboDev\FilamentArgentina\Rules\Dni;
-use CeiboDev\FilamentArgentina\Rules\PesosAmount;
+use NodonHq\FilamentArgentina\Rules\ArgentinePhone;
+use NodonHq\FilamentArgentina\Rules\Cbu;
+use NodonHq\FilamentArgentina\Rules\CbuAlias;
+use NodonHq\FilamentArgentina\Rules\Cuit;
+use NodonHq\FilamentArgentina\Rules\Dni;
+use NodonHq\FilamentArgentina\Rules\PesosAmount;
 
 $request->validate([
     'cuit' => ['required', new Cuit],
@@ -105,7 +105,7 @@ $request->validate([
 ]);
 ```
 
-The checks behind them are available as plain helpers in `CeiboDev\FilamentArgentina\Support` (`Cuit::isValid()`, `Cuit::format()`, `Cbu::isCvu()`, `Phone::e164()`, `Pesos::parse()`, ...).
+The checks behind them are available as plain helpers in `NodonHq\FilamentArgentina\Support` (`Cuit::isValid()`, `Cuit::format()`, `Cbu::isCvu()`, `Phone::e164()`, `Pesos::parse()`, ...).
 
 ## Translations
 

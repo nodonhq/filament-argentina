@@ -1,10 +1,10 @@
 <?php
 
-namespace CeiboDev\FilamentArgentina\Rules;
+namespace NodonHq\FilamentArgentina\Rules;
 
-use CeiboDev\FilamentArgentina\Support\CbuAlias as Alias;
 use Closure;
 use Illuminate\Contracts\Validation\ValidationRule;
+use NodonHq\FilamentArgentina\Support\CbuAlias as Alias;
 
 class CbuAlias implements ValidationRule
 {

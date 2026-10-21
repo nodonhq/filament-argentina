@@ -1,15 +1,15 @@
 <?php
 
-namespace CeiboDev\FilamentArgentina\Tests\Feature;
+namespace NodonHq\FilamentArgentina\Tests\Feature;
 
-use CeiboDev\FilamentArgentina\Rules\ArgentinePhone;
-use CeiboDev\FilamentArgentina\Rules\Cbu;
-use CeiboDev\FilamentArgentina\Rules\CbuAlias;
-use CeiboDev\FilamentArgentina\Rules\Cuit;
-use CeiboDev\FilamentArgentina\Rules\Dni;
-use CeiboDev\FilamentArgentina\Tests\TestCase;
 use Illuminate\Contracts\Validation\ValidationRule;
 use Illuminate\Support\Facades\Validator;
+use NodonHq\FilamentArgentina\Rules\ArgentinePhone;
+use NodonHq\FilamentArgentina\Rules\Cbu;
+use NodonHq\FilamentArgentina\Rules\CbuAlias;
+use NodonHq\FilamentArgentina\Rules\Cuit;
+use NodonHq\FilamentArgentina\Rules\Dni;
+use NodonHq\FilamentArgentina\Tests\TestCase;
 
 class RulesTest extends TestCase
 {

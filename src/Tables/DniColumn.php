@@ -1,9 +1,9 @@
 <?php
 
-namespace CeiboDev\FilamentArgentina\Tables;
+namespace NodonHq\FilamentArgentina\Tables;
 
-use CeiboDev\FilamentArgentina\Support\Dni;
 use Filament\Tables\Columns\TextColumn;
+use NodonHq\FilamentArgentina\Support\Dni;
 
 /** Shows a DNI as 12.345.678. */
 class DniColumn extends TextColumn

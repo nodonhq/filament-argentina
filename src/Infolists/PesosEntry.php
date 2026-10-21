@@ -1,9 +1,9 @@
 <?php
 
-namespace CeiboDev\FilamentArgentina\Infolists;
+namespace NodonHq\FilamentArgentina\Infolists;
 
-use CeiboDev\FilamentArgentina\Support\Pesos;
 use Filament\Infolists\Components\TextEntry;
+use NodonHq\FilamentArgentina\Support\Pesos;
 
 /** Shows an amount as $ 1.234,56. */
 class PesosEntry extends TextEntry

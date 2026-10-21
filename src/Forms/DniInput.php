@@ -1,11 +1,11 @@
 <?php
 
-namespace CeiboDev\FilamentArgentina\Forms;
+namespace NodonHq\FilamentArgentina\Forms;
 
-use CeiboDev\FilamentArgentina\Rules\Dni as DniRule;
-use CeiboDev\FilamentArgentina\Support\Dni;
 use Filament\Forms\Components\TextInput;
 use Filament\Support\RawJs;
+use NodonHq\FilamentArgentina\Rules\Dni as DniRule;
+use NodonHq\FilamentArgentina\Support\Dni;
 
 /** DNI with thousands separators (12.345.678). Stores only the digits unless storeFormatted(). */
 class DniInput extends TextInput

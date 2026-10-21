@@ -1,10 +1,10 @@
 <?php
 
-namespace CeiboDev\FilamentArgentina\Rules;
+namespace NodonHq\FilamentArgentina\Rules;
 
-use CeiboDev\FilamentArgentina\Support\Pesos;
 use Closure;
 use Illuminate\Contracts\Validation\ValidationRule;
+use NodonHq\FilamentArgentina\Support\Pesos;
 
 /** Amount written the Argentine way (1.234,56), with or without the $ sign. */
 class PesosAmount implements ValidationRule

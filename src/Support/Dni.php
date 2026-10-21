@@ -1,6 +1,6 @@
 <?php
 
-namespace CeiboDev\FilamentArgentina\Support;
+namespace NodonHq\FilamentArgentina\Support;
 
 /** DNI: 7 or 8 digits, shown with thousands separators (12.345.678). */
 final class Dni

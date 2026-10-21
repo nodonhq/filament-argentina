@@ -1,6 +1,6 @@
 <?php
 
-namespace CeiboDev\FilamentArgentina\Support;
+namespace NodonHq\FilamentArgentina\Support;
 
 /** Amounts in Argentine pesos: $ 1.234.567,89 */
 final class Pesos

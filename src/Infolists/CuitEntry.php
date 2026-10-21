@@ -1,9 +1,9 @@
 <?php
 
-namespace CeiboDev\FilamentArgentina\Infolists;
+namespace NodonHq\FilamentArgentina\Infolists;
 
-use CeiboDev\FilamentArgentina\Support\Cuit;
 use Filament\Infolists\Components\TextEntry;
+use NodonHq\FilamentArgentina\Support\Cuit;
 
 /** Shows a CUIT / CUIL as 20-12345678-6. */
 class CuitEntry extends TextEntry

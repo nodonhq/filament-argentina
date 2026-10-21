@@ -1,9 +1,9 @@
 <?php
 
-namespace CeiboDev\FilamentArgentina\Tables;
+namespace NodonHq\FilamentArgentina\Tables;
 
-use CeiboDev\FilamentArgentina\Support\Pesos;
 use Filament\Tables\Columns\TextColumn;
+use NodonHq\FilamentArgentina\Support\Pesos;
 
 /** Shows an amount as $ 1.234,56, right aligned. */
 class PesosColumn extends TextColumn

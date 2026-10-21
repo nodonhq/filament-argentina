@@ -1,8 +1,8 @@
 <?php
 
-namespace CeiboDev\FilamentArgentina\Tests\Unit;
+namespace NodonHq\FilamentArgentina\Tests\Unit;
 
-use CeiboDev\FilamentArgentina\Support\Cbu;
+use NodonHq\FilamentArgentina\Support\Cbu;
 use PHPUnit\Framework\TestCase;
 
 class CbuTest extends TestCase

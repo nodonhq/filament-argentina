@@ -1,6 +1,6 @@
 <?php
 
-namespace CeiboDev\FilamentArgentina\Support;
+namespace NodonHq\FilamentArgentina\Support;
 
 final class Digits
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace CeiboDev\FilamentArgentina\Rules;
+namespace NodonHq\FilamentArgentina\Rules;
 
-use CeiboDev\FilamentArgentina\Support\Cuit as CuitNumber;
 use Closure;
 use Illuminate\Contracts\Validation\ValidationRule;
+use NodonHq\FilamentArgentina\Support\Cuit as CuitNumber;
 
 /** Valid CUIT / CUIL (check digit and type prefix). Accepts hyphens, dots and spaces. */
 final class Cuit implements ValidationRule

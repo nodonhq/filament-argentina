@@ -1,10 +1,9 @@
 <?php
 
-namespace CeiboDev\FilamentArgentina\Tests;
+namespace NodonHq\FilamentArgentina\Tests;
 
 use BladeUI\Heroicons\BladeHeroiconsServiceProvider;
 use BladeUI\Icons\BladeIconsServiceProvider;
-use CeiboDev\FilamentArgentina\FilamentArgentinaServiceProvider;
 use Filament\Actions\ActionsServiceProvider;
 use Filament\Forms\FormsServiceProvider;
 use Filament\Infolists\InfolistsServiceProvider;
@@ -12,6 +11,7 @@ use Filament\Schemas\SchemasServiceProvider;
 use Filament\Support\SupportServiceProvider;
 use Filament\Tables\TablesServiceProvider;
 use Livewire\LivewireServiceProvider;
+use NodonHq\FilamentArgentina\FilamentArgentinaServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 abstract class TestCase extends Orchestra

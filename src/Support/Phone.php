@@ -1,6 +1,6 @@
 <?php
 
-namespace CeiboDev\FilamentArgentina\Support;
+namespace NodonHq\FilamentArgentina\Support;
 
 /**
  * Argentine phone numbers. Every number is 10 digits once the country code (54), the

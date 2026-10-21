@@ -1,11 +1,11 @@
 <?php
 
-namespace CeiboDev\FilamentArgentina\Forms;
+namespace NodonHq\FilamentArgentina\Forms;
 
-use CeiboDev\FilamentArgentina\Rules\PesosAmount;
-use CeiboDev\FilamentArgentina\Support\Pesos;
 use Filament\Forms\Components\TextInput;
 use Filament\Support\RawJs;
+use NodonHq\FilamentArgentina\Rules\PesosAmount;
+use NodonHq\FilamentArgentina\Support\Pesos;
 
 /** Amount in pesos typed as 1.234,56. Stores a plain decimal string ("1234.56"). */
 class PesosInput extends TextInput

@@ -1,6 +1,6 @@
 <?php
 
-namespace CeiboDev\FilamentArgentina\Support;
+namespace NodonHq\FilamentArgentina\Support;
 
 /**
  * CUIT / CUIL: 2-digit type prefix, 8-digit number and a modulo 11 check digit.

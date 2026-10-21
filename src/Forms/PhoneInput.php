@@ -1,10 +1,10 @@
 <?php
 
-namespace CeiboDev\FilamentArgentina\Forms;
+namespace NodonHq\FilamentArgentina\Forms;
 
-use CeiboDev\FilamentArgentina\Rules\ArgentinePhone;
-use CeiboDev\FilamentArgentina\Support\Phone;
 use Filament\Forms\Components\TextInput;
+use NodonHq\FilamentArgentina\Rules\ArgentinePhone;
+use NodonHq\FilamentArgentina\Support\Phone;
 
 /**
  * Argentine phone number with area code. Stores the 10 national digits, or the E.164 form

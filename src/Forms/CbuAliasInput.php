@@ -1,9 +1,9 @@
 <?php
 
-namespace CeiboDev\FilamentArgentina\Forms;
+namespace NodonHq\FilamentArgentina\Forms;
 
-use CeiboDev\FilamentArgentina\Rules\CbuAlias;
 use Filament\Forms\Components\TextInput;
+use NodonHq\FilamentArgentina\Rules\CbuAlias;
 
 /** Alias of a CBU or CVU (for example mi.alias.mp). */
 class CbuAliasInput extends TextInput

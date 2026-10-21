@@ -1,10 +1,10 @@
 <?php
 
-namespace CeiboDev\FilamentArgentina\Forms;
+namespace NodonHq\FilamentArgentina\Forms;
 
-use CeiboDev\FilamentArgentina\Rules\Cuit as CuitRule;
-use CeiboDev\FilamentArgentina\Support\Cuit;
 use Filament\Forms\Components\TextInput;
+use NodonHq\FilamentArgentina\Rules\Cuit as CuitRule;
+use NodonHq\FilamentArgentina\Support\Cuit;
 
 /** CUIT / CUIL with a 99-99999999-9 mask. Stores only the 11 digits unless storeFormatted(). */
 class CuitInput extends TextInput

@@ -1,6 +1,6 @@
 <?php
 
-namespace CeiboDev\FilamentArgentina\Support;
+namespace NodonHq\FilamentArgentina\Support;
 
 /**
  * CBU (bank accounts) and CVU (virtual wallets): 22 digits in two blocks, each with a

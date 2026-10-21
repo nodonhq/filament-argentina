@@ -1,8 +1,8 @@
 <?php
 
-namespace CeiboDev\FilamentArgentina\Tests\Unit;
+namespace NodonHq\FilamentArgentina\Tests\Unit;
 
-use CeiboDev\FilamentArgentina\Support\Cuit;
+use NodonHq\FilamentArgentina\Support\Cuit;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 

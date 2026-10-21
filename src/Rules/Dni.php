@@ -1,10 +1,10 @@
 <?php
 
-namespace CeiboDev\FilamentArgentina\Rules;
+namespace NodonHq\FilamentArgentina\Rules;
 
-use CeiboDev\FilamentArgentina\Support\Dni as DniNumber;
 use Closure;
 use Illuminate\Contracts\Validation\ValidationRule;
+use NodonHq\FilamentArgentina\Support\Dni as DniNumber;
 
 /** DNI of 7 or 8 digits. Accepts dots and spaces. */
 class Dni implements ValidationRule

@@ -1,6 +1,6 @@
 <?php
 
-namespace CeiboDev\FilamentArgentina\Support;
+namespace NodonHq\FilamentArgentina\Support;
 
 /** Alias of a CBU or CVU: 6 to 20 letters (no ñ or accents), digits, dots or hyphens. */
 final class CbuAlias

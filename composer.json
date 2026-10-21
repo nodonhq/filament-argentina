@@ -1,5 +1,5 @@
 {
-    "name": "ceibo-dev/filament-argentina",
+    "name": "nodonhq/filament-argentina",
     "description": "Argentine form fields, table columns and validation rules for Filament: CUIT/CUIL, DNI, CBU/CVU, alias, phone, provinces, pesos and IVA condition.",
     "keywords": ["filament", "laravel", "argentina", "cuit", "cuil", "cbu", "cvu", "dni", "validation"],
     "license": "MIT",
@@ -18,14 +18,14 @@
         "laravel/pint": "^1.20"
     },
     "autoload": {
-        "psr-4": { "CeiboDev\\FilamentArgentina\\": "src/" }
+        "psr-4": { "NodonHq\\FilamentArgentina\\": "src/" }
     },
     "autoload-dev": {
-        "psr-4": { "CeiboDev\\FilamentArgentina\\Tests\\": "tests/" }
+        "psr-4": { "NodonHq\\FilamentArgentina\\Tests\\": "tests/" }
     },
     "extra": {
         "laravel": {
-            "providers": ["CeiboDev\\FilamentArgentina\\FilamentArgentinaServiceProvider"]
+            "providers": ["NodonHq\\FilamentArgentina\\FilamentArgentinaServiceProvider"]
         }
     },
     "scripts": {
