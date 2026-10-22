@@ -1,5 +1,7 @@
 # Argentine fields for Filament
 
+<img class="filament-hidden" src="https://raw.githubusercontent.com/nodonhq/filament-argentina/main/art/cover.jpg" alt="Argentine fields for Filament">
+
 Form fields, table columns, infolist entries and validation rules for the data every Argentine app asks for: **CUIT/CUIL, DNI, CBU/CVU, alias, phone numbers, amounts in pesos, provinces and VAT condition**.
 
 - Real validation: CUIT and CBU check digits, not just a regex.
